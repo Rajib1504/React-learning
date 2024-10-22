@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "cover_img": "https://i.ibb.co/jw0FR7B/ratchanon-tisadoldilok-ngw-Pt-KCn-A44-unsplash.jpg",
+    "author": "John Doe",
+    "title": "Exploring the Future of AI",
+    "author_img": "https://example.com/images/author1.jpg",
+    "post_date": "2024-10-20",
+    "reading_time": 5
+  },
+  {
+    "id": 2,
+    "cover_img": "https://i.ibb.co/3k51yrk/jonathan-forage-1az-Ajl8-FTn-U-unsplash.jpg",
+    "author": "Jane Smith",
+    "title": "Understanding Quantum Computing",
+    "author_img": "https://example.com/images/author2.jpg",
+    "post_date": "2024-09-15",
+    "reading_time": 8
+  },
+  {
+    "id": 3,
+    "cover_img": "https://i.ibb.co/k2N3ppK/wren-meinberg-xq-V9-Qd-GOSas-unsplash.jpg",
+    "author": "Emily Johnson",
+    "title": "The Rise of Blockchain Technology",
+    "author_img": "https://example.com/images/author3.jpg",
+    "post_date": "2024-08-22",
+    "reading_time": 6
+  },
+  {
+    "id": 4,
+    "cover_img": "https://i.ibb.co/LYKYkcw/ian-keefe-f-OJVTV40nj-U-unsplash.jpg",
+    "author": "Michael Brown",
+    "title": "The Evolution of Electric Vehicles",
+    "author_img": "https://example.com/images/author4.jpg",
+    "post_date": "2024-07-10",
+    "reading_time": 7
+  },
+  {
+    "id": 5,
+    "cover_img": "https://i.ibb.co/pnm1X5P/julian-bialowas-ilk-Tnu-Mun-P8-unsplash.jpg",
+    "author": "Sarah Davis",
+    "title": "A Guide to Sustainable Living",
+    "author_img": "https://example.com/images/author5.jpg",
+    "post_date": "2024-06-05",
+    "reading_time": 4
+  }
+]
