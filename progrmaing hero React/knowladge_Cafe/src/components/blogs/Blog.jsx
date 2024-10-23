@@ -30,6 +30,7 @@ const Blog = ({ handeltoAddBookmar, handleToCountTime,removeBookmark}) => {
 Blog.propTypes = {
   handeltoAddBookmar: PropTypes.func.isRequired,
   handleToCountTime: PropTypes.func.isRequired,
+  removeBookmark: PropTypes.func.isRequired,
 };
 
 export default Blog;
