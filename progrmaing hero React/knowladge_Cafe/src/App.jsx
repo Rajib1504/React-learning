@@ -5,14 +5,24 @@ import Bookmarks from "./components/Bookmarks";
 import Header from "./components/Header";
 function App() {
   const [bookamrk, setBookmark] = useState([]);
-  const [timeCount, setTimeCount] = useState([]);
+  const [timeCount, setTimeCount] = useState(0);
   const handeltoAddBookmar = (blog) => {
     // console.log(blog);
     const newBookmarks = [...bookamrk, blog];
     setBookmark(newBookmarks);
+    // console.log(id);
+    // const removeBookmark = bookamrk.filter((b) => b.id !== id);
+    // setBookmark(removeBookmark);
   };
+  const removeBookmark =(prompt) =>{
+    // console.log(prompt)
+    const removebookmark = [...bookamrk,prompt]
+    setBookmark(removebookmark);
+
+  }
+
   const handleToCountTime = (time) => {
-    const newTime = [...timeCount, time];
+    const newTime = timeCount + time;
     setTimeCount(newTime);
   };
 
@@ -24,6 +34,7 @@ function App() {
           <Blog
             handeltoAddBookmar={handeltoAddBookmar}
             handleToCountTime={handleToCountTime}
+            removeBookmark={removeBookmark}
           ></Blog>
           <Bookmarks bookamrk={bookamrk} timeCount={timeCount}></Bookmarks>
         </main>

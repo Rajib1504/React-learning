@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import SingleBlog from "./blog/SingleBlog";
 
-const Blog = ({ handeltoAddBookmar, handleToCountTime }) => {
+const Blog = ({ handeltoAddBookmar, handleToCountTime,removeBookmark}) => {
   const [blog, setBlog] = useState([]);
 
   useEffect(() => {
@@ -21,6 +21,7 @@ const Blog = ({ handeltoAddBookmar, handleToCountTime }) => {
           blogSingle={blg}
           handeltoAddBookmar={handeltoAddBookmar}
           handleToCountTime={handleToCountTime}
+          removeBookmark={removeBookmark}
         ></SingleBlog>
       ))}
     </div>

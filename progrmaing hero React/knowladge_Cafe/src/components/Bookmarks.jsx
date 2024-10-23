@@ -8,7 +8,7 @@ const Bookmarks = ({ bookamrk, timeCount }) => {
     <div className=" w-full md:w-2/6 border-2 border-red-600 text-center">
       {/* time  */}
       <div className="bg-blue-100 rounded-xl  shadow-lg shadow-[#cfdacac9] p-4 mb-4">
-        <h1>Total time:</h1>
+        <h1 className="text-2xl">Total Reading time:{timeCount}</h1>
       </div>
 
       {/* blogs  */}
@@ -26,6 +26,7 @@ const Bookmarks = ({ bookamrk, timeCount }) => {
 };
 Bookmarks.propTypes = {
   bookamrk: PropTypes.array.isRequired,
+  timeCount: PropTypes.number.isRequired,
 };
 
 export default Bookmarks;
