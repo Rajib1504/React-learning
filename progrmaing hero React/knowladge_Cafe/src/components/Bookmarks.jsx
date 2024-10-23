@@ -18,8 +18,8 @@ const Bookmarks = ({ bookamrk, timeCount }) => {
         </h1>
       </div>
 
-      {bookamrk.map((singelb) => (
-        <Singlebookmark key={singelb.id} bookamrk={singelb}></Singlebookmark>
+      {bookamrk.map((singelb,i) => (
+        <Singlebookmark key={i} bookamrk={singelb}></Singlebookmark>
       ))}
     </div>
   );
