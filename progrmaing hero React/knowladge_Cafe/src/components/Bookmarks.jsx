@@ -1,9 +1,31 @@
-const Bookmarks = () => {
+import PropTypes from "prop-types";
+import Singlebookmark from "./Singlebookmark";
+
+const Bookmarks = ({ bookamrk, timeCount }) => {
+  // console.log(timeCount);
+
   return (
-    <div className="md= w-1/4 border-2 border-red-600 text-center">
-      <h1 className="text-3xl">Bookmarks :</h1>
+    <div className=" w-full md:w-2/6 border-2 border-red-600 text-center">
+      {/* time  */}
+      <div className="bg-blue-100 rounded-xl  shadow-lg shadow-[#cfdacac9] p-4 mb-4">
+        <h1>Total time:</h1>
+      </div>
+
+      {/* blogs  */}
+      <div className="bg-blue-100 rounded-xl  shadow-lg shadow-[#cfdacac9] p-4 ">
+        <h1 className="text-2xl text-center">
+          Bookmarked Blog: {bookamrk.length}
+        </h1>
+      </div>
+
+      {bookamrk.map((singelb) => (
+        <Singlebookmark key={singelb.id} bookamrk={singelb}></Singlebookmark>
+      ))}
     </div>
   );
+};
+Bookmarks.propTypes = {
+  bookamrk: PropTypes.array.isRequired,
 };
 
 export default Bookmarks;
