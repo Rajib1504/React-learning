@@ -3,11 +3,11 @@ import { useEffect } from "react";
 import { useState } from "react";
 import SingleBlog from "./blog/SingleBlog";
 
-const Blog = ({ handeltoAddBookmar, handleToCountTime,removeBookmark}) => {
+const Blog = ({ handeltoAddBookmar, handleToCountTime, removeBookmark }) => {
   const [blog, setBlog] = useState([]);
 
   useEffect(() => {
-    fetch("blog.json")
+    fetch("/blog.json")
       .then((res) => res.json())
       .then((data) => setBlog(data));
   }, []);
