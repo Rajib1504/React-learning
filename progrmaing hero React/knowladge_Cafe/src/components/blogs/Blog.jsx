@@ -13,7 +13,7 @@ const Blog = ({ handeltoAddBookmar, handleToCountTime, removeBookmark }) => {
   }, []);
 
   return (
-    <div className="md:w-2/3 w-full border-2 border-blue-300 text-center">
+    <div className="md:w-2/3 w-full text-center">
       <h1 className="text-2xl"></h1>
       {blog.map((blg) => (
         <SingleBlog

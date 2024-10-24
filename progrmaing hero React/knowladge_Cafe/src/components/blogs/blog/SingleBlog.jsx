@@ -2,23 +2,27 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import { CiBookmark } from "react-icons/ci";
 import { FaBookmark } from "react-icons/fa";
-const SingleBlog = ({ blogSingle, handeltoAddBookmar,removeBookmark, handleToCountTime }) => {
+const SingleBlog = ({
+  blogSingle,
+  handeltoAddBookmar,
+  removeBookmark,
+  handleToCountTime,
+}) => {
   // console.log(handeltoAddBookmar);
   const [statusBookmark, setStatusBookmark] = useState(false);
-  const {title, cover_img, author_img, reading_time, post_date, author } =
+  const { title, cover_img, author_img, reading_time, post_date, author } =
     blogSingle;
-    function handelBookmark(){
-      console.log(statusBookmark)
-      if(statusBookmark){
-        removeBookmark(blogSingle)
-      }
-      else{
-        handeltoAddBookmar(blogSingle)
-      }
+  function handelBookmark() {
+    console.log(statusBookmark);
+    if (statusBookmark) {
+      removeBookmark(blogSingle);
+    } else {
+      handeltoAddBookmar(blogSingle);
     }
+  }
   return (
     <div className="flex justify-center ">
-      <div className="m-2 border-2 shadow-lg shadow-[#cfdacac9]">
+      <div className="m-2 shadow-lg shadow-[#cfdacac9]">
         <img className="rounded-lg mb-2" src={cover_img} alt="" />
         <div className="flex justify-between items-center">
           <div className="flex  justify-around gap-4 items-center ">
@@ -30,12 +34,17 @@ const SingleBlog = ({ blogSingle, handeltoAddBookmar,removeBookmark, handleToCou
           </div>
           <div className="flex gap-2">
             <p className="text-gray-700 text-sm">0{reading_time} min read</p>
-            <button onClick={() =>{ 
-            handelBookmark()
-              setStatusBookmark(!statusBookmark)
-              }}>
-
-            {statusBookmark?<FaBookmark className="mr-2"></FaBookmark>:<CiBookmark className="mr-2"></CiBookmark>}
+            <button
+              onClick={() => {
+                handelBookmark();
+                setStatusBookmark(!statusBookmark);
+              }}
+            >
+              {statusBookmark ? (
+                <FaBookmark className="mr-2"></FaBookmark>
+              ) : (
+                <CiBookmark className="mr-2"></CiBookmark>
+              )}
             </button>
           </div>
         </div>

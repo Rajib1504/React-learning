@@ -5,7 +5,7 @@ const Bookmarks = ({ bookamrk, timeCount }) => {
   // console.log(timeCount);
 
   return (
-    <div className=" w-full md:w-2/6 border-2 border-red-600 text-center">
+    <div className=" w-full md:w-2/6 text-center">
       {/* time  */}
       <div className="bg-blue-100 rounded-xl  shadow-lg shadow-[#cfdacac9] p-4 mb-4">
         <h1 className="text-2xl">Total Reading time:{timeCount}</h1>
@@ -18,7 +18,7 @@ const Bookmarks = ({ bookamrk, timeCount }) => {
         </h1>
       </div>
 
-      {bookamrk.map((singelb,i) => (
+      {bookamrk.map((singelb, i) => (
         <Singlebookmark key={i} bookamrk={singelb}></Singlebookmark>
       ))}
     </div>
