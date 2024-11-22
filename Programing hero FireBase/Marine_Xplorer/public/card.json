@@ -1,0 +1,260 @@
+{
+      "adventures": [
+        {
+          "id":1 ,
+          "adventureTitle": "Coral Reef Conservation Dive",
+          "image": "/api/placeholder/400/300",
+          "categoryName": "Marine Conservation",
+          "shortDescription": "Join our marine biologists in protecting and studying vibrant coral reef ecosystems while enjoying the underwater paradise.",
+          "adventureCost": "$299",
+          "bookingAvailability": "Available March-October",
+          "location": "Great Barrier Reef, Australia",
+          "duration": "4 Hours",
+          "adventureLevel": "Intermediate",
+          "maxGroupSize": "6 Divers",
+          "includedItems": [
+            "Professional diving equipment",
+            "Underwater camera",
+            "Marine biology guide",
+            "Conservation toolkit",
+            "Post-dive refreshments"
+          ],
+          "ecoFriendlyFeatures": [
+            "Reef-safe sunscreen provided",
+            "Coral restoration activities",
+            "Marine life data collection",
+            "Zero-waste program"
+          ],
+          "specialInstructions": [
+            "PADI certification required",
+            "Bring personal diving logbook",
+            "No touching or disturbing marine life",
+            "Briefing session 30 minutes before dive"
+          ]
+        },
+        {
+          "id":2,
+          "adventureTitle": "Night Bioluminescence Dive",
+          "image": "/api/placeholder/400/300",
+          "categoryName": "Specialty Diving",
+          "shortDescription": "Experience the magical underwater world at night with bioluminescent organisms lighting up the deep.",
+          "adventureCost": "$349",
+          "bookingAvailability": "Year-round",
+          "location": "Maldives",
+          "duration": "3 Hours",
+          "adventureLevel": "Advanced",
+          "maxGroupSize": "4 Divers",
+          "includedItems": [
+            "Night diving equipment",
+            "UV lights",
+            "Underwater torches",
+            "Safety markers",
+            "Hot drinks post-dive"
+          ],
+          "ecoFriendlyFeatures": [
+            "LED lighting systems",
+            "Marine life monitoring",
+            "Minimal impact protocols",
+            "Educational briefing"
+          ],
+          "specialInstructions": [
+            "Advanced certification required",
+            "Previous night diving experience preferred",
+            "Temperature can be cooler at night",
+            "Special briefing required"
+          ]
+        },
+        {
+          "id": 3,
+          "adventureTitle": "Whale Shark Research Expedition",
+          "image": "/api/placeholder/400/300",
+          "categoryName": "Research & Conservation",
+          "shortDescription": "Participate in whale shark monitoring and research while diving alongside these gentle giants.",
+          "adventureCost": "$599",
+          "bookingAvailability": "June-September",
+          "location": "Ningaloo Reef, Western Australia",
+          "duration": "Full Day",
+          "adventureLevel": "Intermediate",
+          "maxGroupSize": "8 Participants",
+          "includedItems": [
+            "Research equipment",
+            "Underwater cameras",
+            "GPS tracking devices",
+            "Lunch and refreshments",
+            "Research data sheets"
+          ],
+          "ecoFriendlyFeatures": [
+            "Sustainable research practices",
+            "Wildlife protection protocols",
+            "Data contribution to conservation",
+            "Eco-friendly vessel"
+          ],
+          "specialInstructions": [
+            "Swimming proficiency required",
+            "Brief training session included",
+            "Follow whale shark interaction guidelines",
+            "Bring sun protection"
+          ]
+        },
+        {
+          "id": 4,
+          "adventureTitle": "Underwater Photography Workshop",
+          "image": "/api/placeholder/400/300",
+          "categoryName": "Specialty Course",
+          "shortDescription": "Master the art of underwater photography while exploring vibrant marine ecosystems.",
+          "adventureCost": "$449",
+          "bookingAvailability": "Monthly Sessions",
+          "location": "Raja Ampat, Indonesia",
+          "duration": "2 Days",
+          "adventureLevel": "All Levels",
+          "maxGroupSize": "5 Photographers",
+          "includedItems": [
+            "Camera equipment rental",
+            "Photography tutorials",
+            "Editing software access",
+            "Lunch both days",
+            "Certificate of completion"
+          ],
+          "ecoFriendlyFeatures": [
+            "Responsible photography practices",
+            "Marine life education",
+            "Support local conservation",
+            "Digital materials only"
+          ],
+          "specialInstructions": [
+            "Basic diving certification required",
+            "Bring your own camera if preferred",
+            "Laptop recommended for editing",
+            "No drones allowed"
+          ]
+        },
+        {
+          "id": 5,
+          "adventureTitle": "Mangrove Restoration Project",
+          "image": "/api/placeholder/400/300",
+          "categoryName": "Eco-Conservation",
+          "shortDescription": "Help restore crucial mangrove ecosystems while learning about their importance to marine life.",
+          "adventureCost": "$199",
+          "bookingAvailability": "Weekly",
+          "location": "Florida Keys, USA",
+          "duration": "6 Hours",
+          "adventureLevel": "Beginner",
+          "maxGroupSize": "10 Participants",
+          "includedItems": [
+            "Planting equipment",
+            "Protective gear",
+            "Educational materials",
+            "Lunch and water",
+            "Project certificate"
+          ],
+          "ecoFriendlyFeatures": [
+            "Carbon offset program",
+            "Local community involvement",
+            "Sustainable planting methods",
+            "Environmental impact monitoring"
+          ],
+          "specialInstructions": [
+            "No experience required",
+            "Wear closed-toe shoes",
+            "Bring change of clothes",
+            "Sun protection essential"
+          ]
+        },
+              {
+                "id":6 ,
+                "adventureTitle": "Deep Sea Wreck Exploration",
+                "image": "/api/placeholder/400/300",
+                "categoryName": "Technical Diving",
+                "shortDescription": "Discover historical shipwrecks and their unique marine ecosystems in this advanced diving expedition.",
+                "adventureCost": "$799",
+                "bookingAvailability": "March-November",
+                "location": "Truk Lagoon, Micronesia",
+                "duration": "5 Hours",
+                "adventureLevel": "Advanced",
+                "maxGroupSize": "4 Divers",
+                "includedItems": [
+                  "Technical diving equipment",
+                  "Mixed gas tanks",
+                  "Underwater mapping tools",
+                  "Safety equipment",
+                  "Post-dive analysis session"
+                ],
+                "ecoFriendlyFeatures": [
+                  "Historical preservation protocols",
+                  "Marine ecosystem monitoring",
+                  "Responsible wreck diving practices",
+                  "Archaeological documentation"
+                ],
+                "specialInstructions": [
+                  "Technical diving certification required",
+                  "Minimum 50 logged dives",
+                  "Medical clearance needed",
+                  "Pre-dive briefing mandatory"
+                ]
+              },
+              {
+                "id":7 ,
+                "adventureTitle": "Sea Turtle Conservation Program",
+                "image": "/api/placeholder/400/300",
+                "categoryName": "Wildlife Conservation",
+                "shortDescription": "Work alongside marine biologists to protect and study endangered sea turtle populations.",
+                "adventureCost": "$399",
+                "bookingAvailability": "May-September",
+                "location": "Gili Islands, Indonesia",
+                "duration": "3 Days",
+                "adventureLevel": "Beginner",
+                "maxGroupSize": "8 Participants",
+                "includedItems": [
+                  "Conservation tools",
+                  "Research materials",
+                  "Snorkeling equipment",
+                  "Meals included",
+                  "Educational workshop materials"
+                ],
+                "ecoFriendlyFeatures": [
+                  "Turtle protection initiatives",
+                  "Beach cleanup activities",
+                  "Local community engagement",
+                  "Sustainable tourism practices"
+                ],
+                "specialInstructions": [
+                  "Swimming ability required",
+                  "Early morning activities",
+                  "Respect wildlife guidelines",
+                  "No sunscreen during turtle interaction"
+                ]
+              },
+              {
+                "id": 8,
+                "adventureTitle": "Underwater Cave Mapping",
+                "image": "/api/placeholder/400/300",
+                "categoryName": "Scientific Exploration",
+                "shortDescription": "Join a scientific team in mapping unexplored underwater cave systems while studying unique cave-dwelling species.",
+                "adventureCost": "$899",
+                "bookingAvailability": "Year-round",
+                "location": "Yucatan Peninsula, Mexico",
+                "duration": "2 Days",
+                "adventureLevel": "Expert",
+                "maxGroupSize": "3 Divers",
+                "includedItems": [
+                  "Cave diving equipment",
+                  "Mapping technology",
+                  "Safety line systems",
+                  "Emergency oxygen",
+                  "Data collection tools"
+                ],
+                "ecoFriendlyFeatures": [
+                  "Cave ecosystem preservation",
+                  "Scientific research contribution",
+                  "Minimal impact protocols",
+                  "Environmental monitoring"
+                ],
+                "specialInstructions": [
+                  "Cave diving certification required",
+                  "Excellent buoyancy control needed",
+                  "Psychological evaluation required",
+                  "Mandatory safety orientation"
+                ]
+              }
+      ]
+    }
