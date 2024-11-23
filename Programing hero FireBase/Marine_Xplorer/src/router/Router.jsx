@@ -1,6 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import Homelayout from "../Pages/Homelayout";
 import CardDetails from "../components/CardDetails";
+import AuthLayout from "../Pages/AuthLayout";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
+import ForgetPassword from "../Pages/ForgetPassword";
 
 const Router = createBrowserRouter([
   {
@@ -19,7 +23,21 @@ const Router = createBrowserRouter([
   },
   {
     path: "/auth",
-    element: <h1>Authentication</h1>,
+    element: <AuthLayout></AuthLayout>,
+    children: [
+      {
+        path: "/auth/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/auth/register",
+        element: <Register></Register>,
+      },
+      {
+        path: "/auth/forgetPassword",
+        element: <ForgetPassword></ForgetPassword>,
+      },
+    ],
   },
   {
     path: "/*",

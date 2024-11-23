@@ -33,7 +33,7 @@ const Card = ({ card }) => {
             ))}
           </ul>
 
-          <Link className="btn mt-3 mb-2  bg-blue-400 ">
+          <Link to={`/${card?.id}`} className="btn mt-3 mb-2  bg-blue-400 ">
             Explore Now <FaArrowRight />
           </Link>
         </div>
